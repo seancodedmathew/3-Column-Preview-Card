@@ -27,10 +27,6 @@ h1 {
   box-shadow: #000 0 0 2px 0;
 }
 
-.column-img {
-  width: 55px;
-}
-
 .column p {
   font-size: 0.785rem;
   color: hsla(0, 0%, 100%, 0.75);
