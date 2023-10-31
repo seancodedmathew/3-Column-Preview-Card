@@ -51,13 +51,6 @@ h1 {
   border-radius: 0 5px 5px 0;
 }
 
-.column p {
-  font-size: 0.785rem;
-  color: hsla(0, 0%, 100%, 0.75);
-  line-height: 23px;
-  padding: 0 0 60px 0;
-}
-
 @media all and (max-width: 870px) {
   .column:first-child {
     border-radius: 5px 5px 0 0;
@@ -66,6 +59,13 @@ h1 {
   .column:last-child {
     border-radius: 0 0 5px 5px;
   }
+}
+
+.column p {
+  font-size: 0.785rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 23px;
+  padding: 0 0 60px 0;
 }
 
 .btn1 {
@@ -122,7 +122,7 @@ h1 {
   border: 2px solid #f2f2f2;
 }
 
-.footer {
+footer {
   width: 100%;
   text-align: center;
   margin: 0 0 20px 0;
